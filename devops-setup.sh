@@ -61,3 +61,4 @@ minikube version
 terraform version
 ansible --version
 helm version
+
