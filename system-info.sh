@@ -14,3 +14,4 @@ echo "🧮 CPU Cores:      $(nproc)"
 echo "💾 Total RAM:      $(free -h | awk '/^Mem:/ { print $2 }')"
 echo "📂 Root FS Usage:  $(df -h / | awk 'NR==2 {print $3 " used out of " $2 " (" $5 ")"}')"
 echo "============================================================"
+
