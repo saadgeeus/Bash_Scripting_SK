@@ -23,3 +23,4 @@ printf "Total words      : %s\n" "$(wc -w < "$FILE")"
 printf "Total characters : %s\n" "$(wc -c < "$FILE")"
 printf "Summary (L W C)  : %s\n" "$(wc "$FILE")"
 printf "======================================\n"
+
